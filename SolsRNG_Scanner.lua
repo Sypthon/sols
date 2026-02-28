@@ -9,9 +9,6 @@ local TweenService = game:GetService("TweenService")
 local LP = Players.LocalPlayer
 local PG = LP.PlayerGui
 
--- Hapus GUI lama
-local old = PG:FindFirstChild("SolsScanner")
-if old then old:Destroy() end
 
 -- ===== WARNA =====
 local C = {
